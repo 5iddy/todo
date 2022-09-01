@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package todo.todo;
+
+option go_package = "todo/x/todo/types";
+
+message Todo {
+  uint64 id = 1;
+  string what = 2;
+  bool done = 3;
+  uint32 priority = 4;
+}
