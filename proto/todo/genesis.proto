@@ -1,0 +1,14 @@
+syntax = "proto3";
+package todo.todo;
+
+import "gogoproto/gogo.proto";
+import "todo/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "todo/x/todo/types";
+
+// GenesisState defines the todo module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

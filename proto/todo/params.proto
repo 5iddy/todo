@@ -1,0 +1,12 @@
+syntax = "proto3";
+package todo.todo;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "todo/x/todo/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
