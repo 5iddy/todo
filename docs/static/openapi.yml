@@ -51812,6 +51812,8 @@ definitions:
     title: >-
       SignatureCounts contains information about signature reporting for a
       number of blocks
+  todo.todo.MsgCreateTodoResponse:
+    type: object
   todo.todo.Params:
     type: object
     description: Params defines the parameters for the module.
