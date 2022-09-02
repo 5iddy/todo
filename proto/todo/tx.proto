@@ -7,19 +7,7 @@ option go_package = "todo/x/todo/types";
 
 // Msg defines the Msg service.
 service Msg {
-      rpc CreateTodo(MsgCreateTodo) returns (MsgCreateTodoResponse);
-// this line is used by starport scaffolding # proto/tx/rpc
-}
-
-message MsgCreateTodo {
-  string creator = 1;
-  string what = 2;
-  bool done = 3;
-  uint32 priority = 4;
-}
-
-message MsgCreateTodoResponse {
-  uint64 id = 1;
+    // this line is used by starport scaffolding # proto/tx/rpc
 }
 
 // this line is used by starport scaffolding # proto/tx/message

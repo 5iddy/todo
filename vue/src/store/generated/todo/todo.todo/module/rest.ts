@@ -20,8 +20,6 @@ export interface RpcStatus {
   details?: ProtobufAny[];
 }
 
-export type TodoMsgCreateTodoResponse = object;
-
 /**
  * Params defines the parameters for the module.
  */
